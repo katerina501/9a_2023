@@ -1,0 +1,6 @@
+print('Количество минут:')
+a= int(float(input()))
+b=a*264600*60
+c=1024**2
+d=round(b/c)
+print("Ответ",d)
